@@ -1,5 +1,5 @@
 # CPE-487
-## Github Markdown
+## GitHub Markdown
 ### Discord has similar markdown
 **Bold**
 
