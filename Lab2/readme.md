@@ -9,6 +9,3 @@
 
 #### Writing to memory
 *put gif here*
-
-![](https://github.com/Jonathan-Cho/CPE-487/blob/main/Lab2/IMG_1249.mov)
-![][https://github.com/Jonathan-Cho/CPE-487/blob/main/Lab2/IMG_1249.mov]
