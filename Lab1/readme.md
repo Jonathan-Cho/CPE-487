@@ -8,6 +8,7 @@
 4. Redownloaded Vivado using the same instructions with my antivirus disabled
 
 [Lab 1 Instructions](https://github.com/kevinwlu/dsd/tree/master/Nexys-A7/Lab-1)
+
 ## Generating Bit Stream // Ledec
 
 #### Creating the project
@@ -51,3 +52,4 @@
 
 
 ## Hex Count
+
