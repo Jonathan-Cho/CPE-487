@@ -1,8 +1,4 @@
 # Lab 1 
-
-## Generating Bit Stream // Ledec
-
-
 ### Process
 
 #### Downloading Vivado
@@ -12,6 +8,8 @@
 4. Redownloaded Vivado using the same instructions with my antivirus disabled
 
 [Lab 1 Instructions](https://github.com/kevinwlu/dsd/tree/master/Nexys-A7/Lab-1)
+## Generating Bit Stream // Ledec
+
 #### Creating the project
 1. Create a new project after launching the software
 2. Create a source file named leddec and selecting VHD as the targer and source languages
@@ -50,3 +48,6 @@
       s1f - 9                   t f f t     =       1 0 0 1
       s0f - 8                   t f f f     =       1 0 0 0
       ```
+
+
+## Hex Count
