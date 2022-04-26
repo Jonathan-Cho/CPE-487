@@ -6,6 +6,7 @@
 
 #### Counter
 https://imgur.com/pp0l2fl
+
 ![IMG_1249.mov](https://github.com/Jonathan-Cho/CPE-487/blob/main/Lab2/IMG_1249.mov)
 
 
