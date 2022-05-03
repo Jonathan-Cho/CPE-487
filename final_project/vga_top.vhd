@@ -104,5 +104,6 @@ BEGIN
 	    
     leddec1 : leddec 
     port map (
+    data => display,
     );
 END Behavioral;
