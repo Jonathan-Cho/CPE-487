@@ -53,4 +53,4 @@
 
 ## Hex Count
 
-![leddec hex counter gif.mov](https://github.com/Jonathan-Cho/CPE-487/blob/main/Lab1/leddec%20hex%20counter%20gif.mov)
+![leddec hex counter.gif](https://github.com/Jonathan-Cho/CPE-487/blob/main/Lab1/leddec%20hex%20counter.gif)
