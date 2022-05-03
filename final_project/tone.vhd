@@ -7,8 +7,8 @@ USE IEEE.NUMERIC_STD.ALL;
 ENTITY tone IS
 	PORT (
 		clk : IN STD_LOGIC; -- 48.8 kHz audio sampling clock
-		pitch : IN UNSIGNED (13 DOWNTO 0); -- frequency (in units of 0.745 Hz)
-	data : OUT SIGNED (15 DOWNTO 0)); -- signed triangle wave out
+		pitch : IN UNSIGNED (0 DOWNTO 0); -- frequency (in units of 0.745 Hz)
+	data : OUT SIGNED (0 DOWNTO 0)); -- signed triangle wave out
 END tone;
 
 ARCHITECTURE Behavioral OF tone IS
