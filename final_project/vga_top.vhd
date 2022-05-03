@@ -101,5 +101,8 @@ BEGIN
       clk_in1 => clk_in,
       clk_out1 => pxl_clk
     );
-    
+	    
+    leddec1 : leddec 
+    port map (
+    );
 END Behavioral;
