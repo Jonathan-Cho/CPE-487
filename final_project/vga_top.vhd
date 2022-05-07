@@ -104,6 +104,7 @@ BEGIN
 	    
     leddec1 : leddec 
     port map (
-    data => display,
+     dig => led_mpx, data => display, 
+     anode => SEG7_anode, seg => SEG7_seg
     );
 END Behavioral;
