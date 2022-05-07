@@ -9,6 +9,6 @@
 
 
 #### Counting from Memory
-~[lab2_3.gif](https://github.com/Jonathan-Cho/CPE-487/blob/main/Lab2/lab2_3.gif)
+![lab2_3.gif](https://github.com/Jonathan-Cho/CPE-487/blob/main/Lab2/lab2_3.gif)
 
 
