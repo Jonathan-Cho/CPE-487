@@ -8,5 +8,7 @@
 ![lab2_1.gif](https://github.com/Jonathan-Cho/CPE-487/blob/main/Lab2/lab2_1.gif)
 
 
-#### Writing to memory
-*put gif here*
+#### Counting from Memory
+~[lab2_3.gif](https://github.com/Jonathan-Cho/CPE-487/blob/main/Lab2/lab2_3.gif)
+
+
