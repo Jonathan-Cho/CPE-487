@@ -33,17 +33,6 @@ component siren IS
 		dac_SDIN : OUT STD_LOGIC
 		);
 	END component;
-
--- add in leddec
-component leddec IS
-	PORT (
-		dig : IN STD_LOGIC_VECTOR (2 DOWNTO 0);
-		data : IN STD_LOGIC_VECTOR (3 DOWNTO 0);
-		anode : OUT STD_LOGIC_VECTOR (7 DOWNTO 0);
-		seg : OUT STD_LOGIC_VECTOR (6 DOWNTO 0)
-	);
-END component;
-	
 	
 BEGIN
 	red <= '1'; -- color setup for red ball on white background
