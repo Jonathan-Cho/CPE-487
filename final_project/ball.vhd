@@ -22,6 +22,29 @@ ARCHITECTURE Behavioral OF ball IS
 	SIGNAL ball_y  : STD_LOGIC_VECTOR(10 DOWNTO 0) := CONV_STD_LOGIC_VECTOR(300, 11);
 	-- current ball motion - initialized to +4 pixels/frame
 	SIGNAL ball_y_motion : STD_LOGIC_VECTOR(10 DOWNTO 0) := "00000000100";
+
+-- add in siren component
+component siren IS
+	PORT (
+		clk_50MHz : IN STD_LOGIC; -- system clock (50 MHz)
+		dac_MCLK : OUT STD_LOGIC; -- outputs to PMODI2L DAC
+		dac_LRCK : OUT STD_LOGIC;
+		dac_SCLK : OUT STD_LOGIC;
+		dac_SDIN : OUT STD_LOGIC
+		);
+	END component;
+
+-- add in leddec
+component leddec IS
+	PORT (
+		dig : IN STD_LOGIC_VECTOR (2 DOWNTO 0);
+		data : IN STD_LOGIC_VECTOR (3 DOWNTO 0);
+		anode : OUT STD_LOGIC_VECTOR (7 DOWNTO 0);
+		seg : OUT STD_LOGIC_VECTOR (6 DOWNTO 0)
+	);
+END component;
+	
+	
 BEGIN
 	red <= '1'; -- color setup for red ball on white background
 	green <= NOT ball_on;
