@@ -8,7 +8,7 @@
 ![Lab4_5](https://github.com/Jonathan-Cho/CPE-487/blob/main/Lab4/Lab4_5.gif)
 
 ### Supressing Leading Zero
-![Lab4_1](https://github.com/Jonathan-Cho/CPE-487/blob/main/Lab4/Lab4_1.gif)
+![Lab4_2](https://github.com/Jonathan-Cho/CPE-487/blob/main/Lab4/Lab4_2.gif)
 
 ### Subtraction
 ![Lab4_6](https://github.com/Jonathan-Cho/CPE-487/blob/main/Lab4/Lab4_6.gif)
